@@ -1,0 +1,8 @@
+print("Saisie trois nombre.")
+nombre1 = float(input("Insère un premier nombre : "))
+nombre2 = float(input("Insère un deuxième nombre : "))
+nombre3 = float(input("Insère un troisième nombre : "))
+plus_petit = min(nombre1, nombre2, nombre3)
+plus_grand = max(nombre1, nombre2, nombre3)
+print("La plus petite valeur est", plus_petit)
+print("La plus grande valeur est", plus_grand)
